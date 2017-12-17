@@ -40,6 +40,10 @@ class ComposerStaticInit65656096951859a8889a982b77e08e12
             'Psr\\Container\\' => 14,
             'PhpCsFixer\\' => 11,
         ),
+        'M' => 
+        array (
+            'Meeting\\' => 8,
+        ),
         'I' => 
         array (
             'Interop\\Container\\' => 18,
@@ -127,6 +131,10 @@ class ComposerStaticInit65656096951859a8889a982b77e08e12
         'PhpCsFixer\\' => 
         array (
             0 => __DIR__ . '/..' . '/friendsofphp/php-cs-fixer/src',
+        ),
+        'Meeting\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Meeting',
         ),
         'Interop\\Container\\' => 
         array (
