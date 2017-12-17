@@ -87,6 +87,4 @@ final class Meeting
     {
         return $this->end_date;
     }
-
-
 }
