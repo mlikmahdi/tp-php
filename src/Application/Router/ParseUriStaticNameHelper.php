@@ -6,6 +6,8 @@ namespace Application\Router;
 
 use Application\Controller\IndexController;
 use Application\Controller\LecturerController;
+use Meeting\Controller\MeetingController;
+use Meeting\Controller\ShowMeetingController;
 use Cinema\Controller\FilmController;
 use Cinema\Controller\ShowFilmController;
 use Exception;
@@ -27,8 +29,19 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
         if ($requestUri === '/') {
             $requestUri = substr($requestUri, 1);
         }
+
         if ($requestUri === '/film') {
             return FilmController::class;
+        }
+
+        if ($requestUri === '/meeting') {
+            return MeetingController::class;
+        }
+
+        if (preg_match('#/meeting/.*#', $requestUri)) {
+            $requestUriParams = explode('/', $requestUri);
+            $_GET['name'] = urldecode($requestUriParams[2]);
+            return ShowMeetingController::class;
         }
 
         if (preg_match('#/film/.*#', $requestUri)) {

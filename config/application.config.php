@@ -10,6 +10,12 @@ use Application\Factory\LecturerRepositoryFactory;
 use Application\Factory\ParseUriHelperFactory;
 use Application\Factory\PdoConnectionFactory;
 use Application\Factory\RouterFactory;
+use Meeting\Controller\MeetingController;
+use Meeting\Controller\ShowMeetingController;
+use Meeting\Factory\MeetingControllerFactory;
+use Meeting\Factory\MeetingRepositoryFactory;
+use Meeting\Factory\ShowMeetingControllerFactory;
+use Meeting\Repository\MeetingRepository;
 use Application\Provider\DbConfigProvider;
 use Application\Repository\LecturerRepository;
 use Application\Router\ParseUriHelper;
@@ -39,5 +45,10 @@ return [
         FilmController::class => FilmControllerFactory::class,
         ShowFilmController::class => ShowFilmControllerFactory::class,
         FilmRepository::class => FilmRepositoryFactory::class,
+
+        // Configurations liées aux Meetings
+        MeetingController::class => MeetingControllerFactory::class,
+        ShowMeetingController::class => ShowMeetingControllerFactory::class,
+        MeetingRepository::class => MeetingRepositoryFactory::class,
     ],
 ];
