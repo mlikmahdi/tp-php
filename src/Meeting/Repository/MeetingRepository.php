@@ -22,7 +22,7 @@ class MeetingRepository
      */
     private $pdo;
 
-    private function __construct(PDO $pdo)
+    public function __construct(PDO $pdo)
     {
         $this->pdo =$pdo;
     }
@@ -40,7 +40,7 @@ class MeetingRepository
 
     public function get(string $name) : Meeting
     {
-        $statement = $this->pdo->prepare('SELECT id, title FROM films WHERE title = :name');
+        $statement = $this->pdo->prepare('SELECT id, title FROM meeting WHERE title = :name');
         $statement->execute([':name' => $name]);
         $meeting = $statement->fetch();
         if (!$meeting) {

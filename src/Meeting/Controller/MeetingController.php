@@ -27,7 +27,7 @@ final class MeetingController
 
     public function indexAction() : string
     {
-        $films = $this->meetingRepository->fetchAll();
+        $meetings = $this->meetingRepository->fetchAll();
 
         ob_start();
         include __DIR__.'/../../../views/meeting.phtml';
