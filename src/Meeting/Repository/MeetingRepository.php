@@ -32,8 +32,8 @@ class MeetingRepository
         $result = $this->pdo->query('SELECT id, title, description, start_date as startDate, end_date as endDate FROM meeting');
         $meetings = [];
         while ($meeting = $result->fetch()) {
-            $meetings[] = new Meeting($meetings['title'],$meetings['description']
-                                    , $meetings['start_date'], $meetings['end_date']);
+            $meetings[] = new Meeting($meeting['title'],$meeting['description']
+                                    , $meeting['start_date'], $meeting['end_date']);
         }
         return new MeetingCollection(...$meetings);
     }
