@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ba0490-b316-4ade-ad31-e1a8a2859ddb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Meeting/Repository/MeetingRepository.php" afterPath="$PROJECT_DIR$/src/Meeting/Repository/MeetingRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="tp-php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,9 +35,11 @@
       <file leaf-file-name="Meeting.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Meeting/Entity/Meeting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,15 +54,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeetingRepository.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MeetingRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Meeting/Repository/MeetingRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8888889">
+            <state vertical-scroll-proportion="-24.375">
               <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="e#147#188#0#PHP" expanded="true" />
-                <marker date="1513883960000" expanded="true" signature="527:615" placeholder="SELECT id, t... meeting" />
-                <marker date="1513883960000" expanded="true" signature="1019:1068" placeholder="SELECT id, t... films" />
+                <marker date="1513885226000" expanded="true" signature="527:615" placeholder="SELECT id, t... meeting" />
+                <marker date="1513885226000" expanded="true" signature="1019:1068" placeholder="SELECT id, t... films" />
               </folding>
             </state>
           </provider>
@@ -70,6 +73,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.25">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.06987578">
+                <caret line="3" column="138" selection-start-line="3" selection-start-column="138" selection-end-line="3" selection-end-column="138" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meeting.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/meeting.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -99,12 +138,14 @@
         <option value="$PROJECT_DIR$/src/Meeting/Factory/MeetingRepositoryFactory.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/views/meeting-details.phtml" />
-        <option value="$PROJECT_DIR$/src/Meeting/Entity/Meeting.php" />
         <option value="$PROJECT_DIR$/views/meeting.phtml" />
         <option value="$PROJECT_DIR$/src/Meeting/Controller/MeetingController.php" />
         <option value="$PROJECT_DIR$/src/Entity/Meeting.php" />
         <option value="$PROJECT_DIR$/src/Meeting/Repository/MeetingRepository.php" />
+        <option value="$PROJECT_DIR$/src/Meeting/Entity/Meeting.php" />
+        <option value="$PROJECT_DIR$/views/meeting-details.phtml" />
+        <option value="$PROJECT_DIR$/views/index.phtml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -668,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cinema/Factory/FilmRepositoryFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
@@ -804,7 +838,7 @@
         <state vertical-scroll-proportion="-6.0">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
-            <element signature="e#64#107#0#PHP" expanded="true" />
+            <element signature="e#64#107#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -825,16 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Meeting/Collection/MeetingCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15555556">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#149#176#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cinema/Collection/FilmCollection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13333334">
@@ -842,14 +866,6 @@
           <folding>
             <element signature="e#63#86#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/meeting.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,20 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Meeting/Controller/MeetingController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6666667">
@@ -910,11 +912,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/meeting-details.phtml">
+    <entry file="file://$PROJECT_DIR$/src/Meeting/Collection/MeetingCollection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.15555556">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#149#176#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,22 +932,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Meeting/Entity/Meeting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Meeting/Repository/MeetingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8888889">
+        <state vertical-scroll-proportion="-24.375">
           <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="e#147#188#0#PHP" expanded="true" />
-            <marker date="1513883960000" expanded="true" signature="527:615" placeholder="SELECT id, t... meeting" />
-            <marker date="1513883960000" expanded="true" signature="1019:1068" placeholder="SELECT id, t... films" />
+            <marker date="1513885226000" expanded="true" signature="527:615" placeholder="SELECT id, t... meeting" />
+            <marker date="1513885226000" expanded="true" signature="1019:1068" placeholder="SELECT id, t... films" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/meeting-details.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/meeting.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.06987578">
+            <caret line="3" column="138" selection-start-line="3" selection-start-column="138" selection-end-line="3" selection-end-column="138" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
